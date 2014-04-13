@@ -10,6 +10,10 @@ Developed by [Florian Brühlmann](https://twitter.com/fbruehlmann) for psycholog
 - [ ] List parameters and settings (hidden in the code...)
 - [ ] Write a documentation
 
+### Instructions
+ATM you're on your own....
+Most of the magic happens in [js/tagem.js](js/tagem.js)
+
 ### Publications
 
 Mekler, E., Brühlmann, F., Opwis, K., & Tuch, A. (2013). Do Points, Levels and Leaderboards Harm Intrinsic Motivation? An Empirical Analysis of Common Gamification Elements. In *Gamification 2013: Proceedings of the First International Conference on Gameful Design, Research, and Applications)*. 66–73.
