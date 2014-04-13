@@ -38,15 +38,15 @@ $time = $_GET['t'];
 
   <!-- Included CSS Files (Uncompressed) -->
   <!--
-  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="css/foundation.css">
   -->
   
   <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="css/app.css">
 
 
-  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="js/modernizr.foundation.js"></script>
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
@@ -55,10 +55,10 @@ $time = $_GET['t'];
 
     <!-- Included JS Files (Compressed) -->
 
-  <script src="javascripts/foundation.min.js"></script>
+  <script src="js/foundation.min.js"></script>
 
   <!-- Initialize JS Plugins -->
-  <script src="javascripts/app.js"></script>
+  <script src="js/app.js"></script>
   
   <!-- Tag functions and styles -->
   
@@ -69,7 +69,7 @@ $time = $_GET['t'];
     <!-- This is an optional CSS theme that only applies to this widget. Use it in addition to the jQuery UI theme. -->
     <link href="css/tagit.ui-zendesk.css" rel="stylesheet" type="text/css">
 	
-    <link rel="stylesheet" href="stylesheets/custom.css">
+    <link rel="stylesheet" href="css/custom.css">
 
 
     <!-- jQuery and jQuery UI are required dependencies. -->
