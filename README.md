@@ -1,4 +1,4 @@
 tagem
 =====
 
-Tag'em – Image tagging with gamification
+Tag'em an image tagging platform with gamification elements
