@@ -176,7 +176,7 @@ $time = $_GET['t'];
     <h4>Stichworte:</h4>
 	<div class="results"></div>
 		<p id="total" class="points_display"><b></b></p>
-                <p id="save" style="float:right;">wird gespeichert...<img src="load.gif" style="height:20px;float:right;" alt="save..."></p>
+                <p id="save" style="float:right;">wird gespeichert...<img src="images/load.gif" style="height:20px;float:right;" alt="save..."></p>
 		<p><a href="#" class="button close-reveal-modal score-close " style="display:none;float:right;position:relative;color:#FFFFFF;text-shadow:none;font-size:14px;font-weight:bold;" id="close" >Weiter</a></p>
   </div>
 
