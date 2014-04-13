@@ -1,4 +1,3 @@
-
             /* IE FIX for console logs etc. */
                 
                 if (!(window.console && console.log)) {
@@ -15,7 +14,7 @@
     
         /* Loading-Image file*/
                 
-                var loader = "<img class=\"loadimg\" style=\"position:fixed;left:50%;top:50%;\"src=\"load.gif\" class=\"load\" alt=\"Lädt…\" />";
+                var loader = "<img class=\"loadimg\" style=\"position:fixed;left:50%;top:50%;\"src=\"images\\load.gif\" class=\"load\" alt=\"Lädt…\" />";
 
         $(document).ready(function(){
         
