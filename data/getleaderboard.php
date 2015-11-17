@@ -1,8 +1,8 @@
 <?php
 
-$userlfdn = $_POST['lfdn'];
-$username = $_POST['user'];
-$userscore = $_POST['score'];
+$userlfdn = isset($_POST['lfdn']) ? $_POST['lfdn'] : '';
+$username = isset($_POST['user']) ? $_POST['user'] : '';
+$userscore = isset($_POST['score']) ? $_POST['score'] : '';
 
         $aArray[0][0] = 10000;
         $aArray[0][1] = "verdandi";
