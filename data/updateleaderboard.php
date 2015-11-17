@@ -6,9 +6,9 @@ require_once ('sql_con.php');
 //$_POST['phpsessionid'];
 //$vpn = $_POST['vpn'] ;
 
-$lfdn = $_POST['lfdn'];
-$user = $_POST['user'];
-$score = $_POST['score'];
+$userlfdn = isset($_POST['lfdn']) ? $_POST['lfdn'] : '';
+$user = isset($_POST['user']) ? $_POST['user'] : '';
+$score = isset($_POST['score']) ? $_POST['score'] : '';
 
 
 echo $score;
