@@ -1,21 +1,19 @@
 <?php 
 require_once ('sql_con.php');
 
-$load_time = $_POST['load_time'];
-$time = $_POST['time'];
-$phpsessionid = $_POST['phpsessionid'];
-$lfdn = $_POST['lfdn'];
-$tic = $_POST['tic'];
-$g = $_POST['g'];
-$meaningFraming = $_POST['meaningFraming'];
-$leaderboard = $_POST['leaderboard'];
-$levelUp = $_POST['levelUp'];
-$img_i = $_POST['img_i'];
-$round_number = $_POST['round_number'];
-$img_name = $_POST['img_name'];
-$tag = $_POST['tag'];
-
-
+$load_time = isset($_POST['load_time']) ? $_POST['load_time'] : '';
+$time = isset($_POST['time']) ? $_POST['time'] : '';
+$phpsessionid = isset($_POST['phpsessionid']) ? $_POST['phpsessionid'] : '';
+$lfdn = isset($_POST['lfdn']) ? $_POST['lfdn'] : '';
+$tic = isset($_POST['tic']) ? $_POST['tic'] : '';
+$g = isset($_POST['g']) ? $_POST['g'] : '';
+$meaningFraming = isset($_POST['meaningFraming']) ? $_POST['meaningFraming'] : '';
+$leaderboard = isset($_POST['leaderboard']) ? $_POST['leaderboard'] : '';
+$levelUp = isset($_POST['levelUp']) ? $_POST['levelUp'] : '';
+$img_i = isset($_POST['img_i']) ? $_POST['img_i'] : '';
+$round_number = isset($_POST['round_number']) ? $_POST['round_number'] : '';
+$img_name = isset($_POST['img_name']) ? $_POST['img_name'] : '';
+$tag = isset($_POST['tag']) ? $_POST['tag'] : '';
 
 
 /*
@@ -87,7 +85,7 @@ $stmt = $mysqli->prepare("INSERT INTO `tagging`.`tagging3` ( `load_time`, `tag_t
 $stmt->bind_param("sssssssiiiiiiss", $load_time, $time, $phpsessionid, $ip, $user_agent, $lfdn, $tic, $g, $meaningFraming, $leaderboard, $levelUp, $img_i, $round_number, $img_name, $tag);
 $stmt->execute();
 
-echo "<br />\nAnzahl veränderter Datensätze: " . $stmt->affected_rows;
+echo "<br />\nAnzahl verÃ¤nderter DatensÃ¤tze: " . $stmt->affected_rows;
 $stmt->close();
 
 
