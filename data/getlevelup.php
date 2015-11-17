@@ -1,8 +1,8 @@
 <?php
 require_once ('sql_con.php');
 
-$userlfdn = $_POST['lfdn'];
-$username = $_POST['user'];
+$userlfdn = isset($_POST['lfdn']) ? $_POST['lfdn'] : '';
+$username = isset($_POST['user']) ? $_POST['user'] : '';
 
 
 
