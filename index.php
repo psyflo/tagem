@@ -18,7 +18,8 @@ if (isset($_COOKIE['RoundCookie'])) {
     setcookie("RoundCookie", $round, time()+3600*12);  /* verfällt in 12 Stunden */
 }
 
-//$score = $_POST['score']; /*
+//$score = $_POST['score'];
+/*
 $lfdn = $_GET['lfdn'];
 $tic = $_GET['tic'];
 $g = $_GET['g'];
