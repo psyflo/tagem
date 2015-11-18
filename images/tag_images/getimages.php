@@ -1,5 +1,5 @@
 <?php
-$round = $_POST['r'];
+$round = isset($_POST['r']) ? $_POST['r'] : '';
 
 /*
 header('Content-type:application/javascript');
